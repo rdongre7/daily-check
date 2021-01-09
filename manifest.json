@@ -1,0 +1,19 @@
+{
+  "name": "Daily Check",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Daily Check for Chrome",
+  "browser_action": {
+    "default_title": "A Quite Useless Extension"
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "https://dailycheck.cornell.edu/*",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
